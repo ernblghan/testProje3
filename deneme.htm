@@ -1,0 +1,25 @@
+<html>
+<title>
+</title>
+<body>
+	<h1>Hello World!</h1>
+	
+	<p id="demo">bilgehan</p>
+	<button type="button" onclick="myFunction()">PRESS IT</button>
+</body>
+<script>
+	function myFunction()
+	{
+		var pText = document.getElementById("demo").innerHTML;
+		if(pText.match("bil"))
+		{
+			document.getElementById("demo").innerHTML = "eren";
+		}
+		else
+		{
+			document.getElementById("demo").innerHTML = "bilgehan";
+		}	
+	
+	}
+</script>
+</html>
